@@ -1,0 +1,12 @@
+# Fisiere de configurare cu date confidentiale
+config.json
+
+# Capturi de ecran
+*.png
+*.jpg
+*.jpeg
+screenshots/
+
+# Python cache
+__pycache__/
+*.pyc
