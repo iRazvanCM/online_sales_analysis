@@ -9,12 +9,8 @@ from product_manager import ProductManager
 
 manager = ProductManager()
 
-manager.add_product(Product("Laptop", 3500.0, 10))
-manager.add_product(Product("Mouse", 80.0, 50))
-manager.add_product(Product("Keyboard", 250.0, 30))
-manager.add_product(Product("Monitor", 1200.0, 15))
-manager.add_product(Product("USB cable", 25.0, 100))
-
-manager.display_all_products()
-
-print(f"\nValoarea totala a inventarului: {manager.total_inventory_value()} lei")
+manager.add_product(Product("Gaming Laptop", 4200.0, 8))
+manager.add_product(Product("Wireless Mouse", 120.0, 60))
+manager.add_product(Product("Mechanical Keyboard", 380.0, 25))
+manager.add_product(Product("4K Monitor", 1800.0, 12))
+manager.add_product(Product("USB-C cable", 35.0, 150))
